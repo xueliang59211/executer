@@ -22,6 +22,8 @@ public class Test {
 		List<Object> list = exe.join();
 		System.out.println("ResultSize: "+list.size());
 		System.out.println("time: "+(System.currentTimeMillis() - time));
+		
+		System.out.println("===============");
 	}
 
 }
